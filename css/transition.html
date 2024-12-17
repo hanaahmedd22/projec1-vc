@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrolling Background</title>
+  <style>
+    body,html{
+        margin: 0;
+        height: 100%;
+    }
+    div {
+      height: 100%; /* fullscreen height for each section */
+      background-size: cover; /* image cover whole section */
+      background-position: center; /* center image */
+      background-attachment: fixed; /* background fixed  */
+    }
+
+    .image1 {
+      background-image: url('images/man.png'); 
+    }
+
+    .image2 {
+      background-image: url('images/birds.png');
+    }
+  </style>
+</head>
+<body>
+  <div class="image1"></div> 
+  <div class="image2"></div> 
+</body>
+</html>

@@ -1,0 +1,41 @@
+/* all  <p>  */
+p {
+    color: red;
+}
+
+/* <p> and <div> */
+p, div {
+    
+    border: 1px solid black;
+
+}
+
+#myDiv > p.mainClass {
+    
+    background-color: lightblue;
+}
+
+/*  all <p> inside any <div> */
+div p {
+color: rgb(0, 0, 0);
+}
+
+input[type="text"].myClass {
+    background-color: cadetblue;
+}
+/*any all  span after div /// +direct below */
+div ~ span {
+    color: purple;
+    
+}
+
+/* <p> elements with class 'myClass' */
+p.myClass {
+background-color: black;
+}
+
+/* <div> with id 'myDiv' */
+#myDiv {
+    background-color: blue;
+    
+}
