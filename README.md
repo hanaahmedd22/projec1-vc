@@ -13,5 +13,5 @@ git push origin :v1.0
 git tag -d v1.0
 
 
-![picture](final project/img/img/S0_bg.jpg)
+![picture](assignment/resources/up.png)
 
